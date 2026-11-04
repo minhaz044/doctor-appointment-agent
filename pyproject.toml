@@ -1,0 +1,53 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "doctor-appointment-agent"
+version = "0.1.0"
+requires-python = ">=3.13"
+dependencies = [
+    "deepeval>=4.3.2",
+    "dotenv",
+    "langchain",
+    "langgraph",
+    "langchain-community",
+    "langchain-google-genai",
+    "pydantic>=2.14.1",
+    "python-dotenv",
+    "faster-whisper>=1.1.0",
+    "sounddevice",
+    "numpy"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8",
+    "pytest-asyncio>=0.24",
+    "ruff>=0.6",
+    "mypy>=1.11",
+]
+
+[project.scripts]
+doctor-appointment-agent = "doctor_appointment_agent.main:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py313"
+src = ["src", "tests"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"
+addopts = "-q"
+
+[tool.mypy]
+python_version = "3.13"
+strict = true
+files = ["src"]

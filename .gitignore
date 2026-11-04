@@ -1,0 +1,34 @@
+# Secrets & local config
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Virtualenvs
+.venv/
+venv/
+
+# Tooling caches
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+.deepeval/
+
+# Runtime data
+var/
+*.db
+*.sqlite3
+
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/
