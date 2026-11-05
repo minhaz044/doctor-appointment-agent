@@ -29,7 +29,7 @@ class VoiceInputService:
 
         print("Recording completed........")
         audio = np.concatenate(self._audio_chunks, axis=0)
-        return audio.flatten()
+        return audio
 
     def play_audio(self, audio_data):
         print("Playing audio...")

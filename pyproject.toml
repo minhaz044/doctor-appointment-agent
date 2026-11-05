@@ -3,4 +3,10 @@ name = "doctor-appointment-agents"
 version = "0.1.0"
 requires-python = ">=3.13"
 dependencies = [
+    "openai",
+    "python-dotenv>=1.2.4",
+    "sounddevice",
+    "numpy",
+    "dotenv",
+    "soundfile",
 ]

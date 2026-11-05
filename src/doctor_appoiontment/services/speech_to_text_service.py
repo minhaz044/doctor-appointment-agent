@@ -1,18 +1,28 @@
-from faster_whisper import WhisperModel
+import io
+import soundfile as sf
+
+from openai import OpenAI
+from dotenv import load_dotenv
+
+load_dotenv()
 
 
 class SpeechToTextService:
+
     def __init__(self):
-        self._model = WhisperModel(
-            "base",
-            device="cpu",
-            compute_type="int8",
-            cpu_threads=4,
-            num_workers=2
-        )
+        self._client = OpenAI()
 
     def convert_to_text(self, audio):
         print("Converting audio to text........")
-        segments, info = self._model.transcribe(audio, beam_size=3, vad_filter=True, language="en")
-        text = " ".join(segment.text for segment in segments)
-        return text.strip()
+
+        buffer = io.BytesIO()
+        sf.write(buffer, audio, 16000, format="WAV")
+        buffer.seek(0)
+
+        transcript = self._client.audio.transcriptions.create(
+            model="gpt-transcribe",
+            file=("recording.wav", buffer, "audio/wav"),
+            languages=["en"]
+        )
+
+        return transcript.text.strip()
