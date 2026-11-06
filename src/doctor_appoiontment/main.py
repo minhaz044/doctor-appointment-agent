@@ -16,6 +16,7 @@ from tools.doctor_info_tools import (
     get_doctor_details_and_schedule_info_by_doctor_id
 )
 from tools.appiontment_tools import create_an_appointment
+from tools.utility_tools import get_today_date_and_time
 
 appointment_agent = create_agent(
     name="Doctor appointment agent",
@@ -26,7 +27,8 @@ appointment_agent = create_agent(
            get_doctors_list_by_department_id,
            get_doctor_details_by_name,
            get_doctor_details_and_schedule_info_by_doctor_id,
-           create_an_appointment],
+           create_an_appointment,
+           get_today_date_and_time],
     checkpointer=InMemorySaver(),
     response_format=Answer
 )
