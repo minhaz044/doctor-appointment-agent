@@ -1,0 +1,1565 @@
+[
+  {
+    "doctor_id": 101,
+    "doctor_name": "Dr. Ahmed Rahman",
+    "department_ids": [
+      1,
+      2
+    ],
+    "specializations": [
+      "Cardiology",
+      "Internal Medicine"
+    ],
+    "available_schedule": [
+      {
+        "day": "Saturday",
+        "consultation_hours": {
+          "Morning": {
+            "start_time": "09:00 AM",
+            "end_time": "01:00 PM"
+          }
+        }
+      },
+      {
+        "day": "Monday",
+        "consultation_hours": {
+          "Evening": {
+            "start_time": "05:00 PM",
+            "end_time": "08:00 PM"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "doctor_id": 102,
+    "doctor_name": "Dr. Fatima Karim",
+    "department_ids": [
+      1
+    ],
+    "specializations": [
+      "Interventional Cardiology"
+    ],
+    "available_schedule": [
+      {
+        "day": "Sunday",
+        "consultation_hours": {
+          "Morning": {
+            "start_time": "10:00 AM",
+            "end_time": "01:00 PM"
+          }
+        }
+      },
+      {
+        "day": "Tuesday",
+        "consultation_hours": {
+          "Evening": {
+            "start_time": "04:00 PM",
+            "end_time": "07:00 PM"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "doctor_id": 103,
+    "doctor_name": "Dr. Mahmud Hasan",
+    "department_ids": [
+      2,
+      7
+    ],
+    "specializations": [
+      "General Medicine",
+      "Respiratory Medicine"
+    ],
+    "available_schedule": [
+      {
+        "day": "Saturday",
+        "consultation_hours": {
+          "Evening": {
+            "start_time": "05:00 PM",
+            "end_time": "09:00 PM"
+          }
+        }
+      },
+      {
+        "day": "Wednesday",
+        "consultation_hours": {
+          "Morning": {
+            "start_time": "09:00 AM",
+            "end_time": "12:00 PM"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "doctor_id": 104,
+    "doctor_name": "Dr. Nusrat Jahan",
+    "department_ids": [
+      3
+    ],
+    "specializations": [
+      "Clinical Neurology",
+      "Headache Medicine"
+    ],
+    "available_schedule": [
+      {
+        "day": "Sunday",
+        "consultation_hours": {
+          "Morning": {
+            "start_time": "09:00 AM",
+            "end_time": "12:00 PM"
+          }
+        }
+      },
+      {
+        "day": "Thursday",
+        "consultation_hours": {
+          "Evening": {
+            "start_time": "05:00 PM",
+            "end_time": "08:00 PM"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "doctor_id": 105,
+    "doctor_name": "Dr. Kamal Uddin",
+    "department_ids": [
+      4
+    ],
+    "specializations": [
+      "Orthopedic Surgery",
+      "Joint Replacement"
+    ],
+    "available_schedule": [
+      {
+        "day": "Saturday",
+        "consultation_hours": {
+          "Morning": {
+            "start_time": "10:00 AM",
+            "end_time": "01:00 PM"
+          }
+        }
+      },
+      {
+        "day": "Tuesday",
+        "consultation_hours": {
+          "Evening": {
+            "start_time": "06:00 PM",
+            "end_time": "09:00 PM"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "doctor_id": 106,
+    "doctor_name": "Dr. Samira Akter",
+    "department_ids": [
+      5
+    ],
+    "specializations": [
+      "Clinical Dermatology",
+      "Cosmetic Dermatology"
+    ],
+    "available_schedule": [
+      {
+        "day": "Sunday",
+        "consultation_hours": {
+          "Morning": {
+            "start_time": "09:00 AM",
+            "end_time": "01:00 PM"
+          }
+        }
+      },
+      {
+        "day": "Wednesday",
+        "consultation_hours": {
+          "Evening": {
+            "start_time": "05:00 PM",
+            "end_time": "08:00 PM"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "doctor_id": 107,
+    "doctor_name": "Dr. Rezaul Islam",
+    "department_ids": [
+      6
+    ],
+    "specializations": [
+      "Gastroenterology",
+      "Hepatology"
+    ],
+    "available_schedule": [
+      {
+        "day": "Saturday",
+        "consultation_hours": {
+          "Morning": {
+            "start_time": "09:00 AM",
+            "end_time": "12:00 PM"
+          }
+        }
+      },
+      {
+        "day": "Monday",
+        "consultation_hours": {
+          "Evening": {
+            "start_time": "05:00 PM",
+            "end_time": "08:00 PM"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "doctor_id": 108,
+    "doctor_name": "Dr. Tanvir Hossain",
+    "department_ids": [
+      7
+    ],
+    "specializations": [
+      "Pulmonology",
+      "Asthma"
+    ],
+    "available_schedule": [
+      {
+        "day": "Sunday",
+        "consultation_hours": {
+          "Morning": {
+            "start_time": "10:00 AM",
+            "end_time": "01:00 PM"
+          }
+        }
+      },
+      {
+        "day": "Thursday",
+        "consultation_hours": {
+          "Evening": {
+            "start_time": "04:00 PM",
+            "end_time": "07:00 PM"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "doctor_id": 109,
+    "doctor_name": "Dr. Farhana Yasmin",
+    "department_ids": [
+      8
+    ],
+    "specializations": [
+      "Ophthalmology",
+      "Retina"
+    ],
+    "available_schedule": [
+      {
+        "day": "Saturday",
+        "consultation_hours": {
+          "Morning": {
+            "start_time": "09:00 AM",
+            "end_time": "01:00 PM"
+          }
+        }
+      },
+      {
+        "day": "Tuesday",
+        "consultation_hours": {
+          "Evening": {
+            "start_time": "05:00 PM",
+            "end_time": "08:00 PM"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "doctor_id": 110,
+    "doctor_name": "Dr. Shafiq Ahmed",
+    "department_ids": [
+      9
+    ],
+    "specializations": [
+      "ENT",
+      "Rhinology"
+    ],
+    "available_schedule": [
+      {
+        "day": "Sunday",
+        "consultation_hours": {
+          "Morning": {
+            "start_time": "09:00 AM",
+            "end_time": "12:00 PM"
+          }
+        }
+      },
+      {
+        "day": "Wednesday",
+        "consultation_hours": {
+          "Evening": {
+            "start_time": "05:00 PM",
+            "end_time": "09:00 PM"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "doctor_id": 111,
+    "doctor_name": "Dr. Imran Chowdhury",
+    "department_ids": [
+      10
+    ],
+    "specializations": [
+      "Urology",
+      "Endourology"
+    ],
+    "available_schedule": [
+      {
+        "day": "Saturday",
+        "consultation_hours": {
+          "Morning": {
+            "start_time": "10:00 AM",
+            "end_time": "01:00 PM"
+          }
+        }
+      },
+      {
+        "day": "Monday",
+        "consultation_hours": {
+          "Evening": {
+            "start_time": "05:00 PM",
+            "end_time": "08:00 PM"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "doctor_id": 112,
+    "doctor_name": "Dr. Sabiha Sultana",
+    "department_ids": [
+      11
+    ],
+    "specializations": [
+      "Nephrology",
+      "Renal Medicine"
+    ],
+    "available_schedule": [
+      {
+        "day": "Sunday",
+        "consultation_hours": {
+          "Morning": {
+            "start_time": "09:00 AM",
+            "end_time": "12:00 PM"
+          }
+        }
+      },
+      {
+        "day": "Tuesday",
+        "consultation_hours": {
+          "Evening": {
+            "start_time": "04:00 PM",
+            "end_time": "07:00 PM"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "doctor_id": 113,
+    "doctor_name": "Dr. Saiful Alam",
+    "department_ids": [
+      12
+    ],
+    "specializations": [
+      "Endocrinology",
+      "Diabetes"
+    ],
+    "available_schedule": [
+      {
+        "day": "Saturday",
+        "consultation_hours": {
+          "Morning": {
+            "start_time": "09:00 AM",
+            "end_time": "01:00 PM"
+          }
+        }
+      },
+      {
+        "day": "Thursday",
+        "consultation_hours": {
+          "Evening": {
+            "start_time": "05:00 PM",
+            "end_time": "08:00 PM"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "doctor_id": 114,
+    "doctor_name": "Dr. Mehnaz Islam",
+    "department_ids": [
+      13
+    ],
+    "specializations": [
+      "Psychiatry",
+      "Anxiety Disorders"
+    ],
+    "available_schedule": [
+      {
+        "day": "Sunday",
+        "consultation_hours": {
+          "Morning": {
+            "start_time": "10:00 AM",
+            "end_time": "01:00 PM"
+          }
+        }
+      },
+      {
+        "day": "Wednesday",
+        "consultation_hours": {
+          "Evening": {
+            "start_time": "05:00 PM",
+            "end_time": "08:00 PM"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "doctor_id": 115,
+    "doctor_name": "Dr. Roksana Begum",
+    "department_ids": [
+      14,
+      15
+    ],
+    "specializations": [
+      "Gynecology",
+      "Obstetrics"
+    ],
+    "available_schedule": [
+      {
+        "day": "Saturday",
+        "consultation_hours": {
+          "Morning": {
+            "start_time": "09:00 AM",
+            "end_time": "12:00 PM"
+          }
+        }
+      },
+      {
+        "day": "Monday",
+        "consultation_hours": {
+          "Evening": {
+            "start_time": "05:00 PM",
+            "end_time": "08:00 PM"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "doctor_id": 116,
+    "doctor_name": "Dr. Jannatul Ferdous",
+    "department_ids": [
+      15
+    ],
+    "specializations": [
+      "Maternal Fetal Medicine",
+      "Prenatal Care"
+    ],
+    "available_schedule": [
+      {
+        "day": "Sunday",
+        "consultation_hours": {
+          "Morning": {
+            "start_time": "09:00 AM",
+            "end_time": "01:00 PM"
+          }
+        }
+      },
+      {
+        "day": "Tuesday",
+        "consultation_hours": {
+          "Evening": {
+            "start_time": "04:00 PM",
+            "end_time": "07:00 PM"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "doctor_id": 117,
+    "doctor_name": "Dr. Arif Hossain",
+    "department_ids": [
+      16
+    ],
+    "specializations": [
+      "Pediatrics",
+      "Child Health"
+    ],
+    "available_schedule": [
+      {
+        "day": "Saturday",
+        "consultation_hours": {
+          "Morning": {
+            "start_time": "09:00 AM",
+            "end_time": "12:00 PM"
+          }
+        }
+      },
+      {
+        "day": "Wednesday",
+        "consultation_hours": {
+          "Evening": {
+            "start_time": "05:00 PM",
+            "end_time": "08:00 PM"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "doctor_id": 118,
+    "doctor_name": "Dr. Tahmina Akter",
+    "department_ids": [
+      17
+    ],
+    "specializations": [
+      "Dentistry",
+      "Restorative Dentistry"
+    ],
+    "available_schedule": [
+      {
+        "day": "Sunday",
+        "consultation_hours": {
+          "Morning": {
+            "start_time": "10:00 AM",
+            "end_time": "01:00 PM"
+          }
+        }
+      },
+      {
+        "day": "Thursday",
+        "consultation_hours": {
+          "Evening": {
+            "start_time": "04:00 PM",
+            "end_time": "08:00 PM"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "doctor_id": 119,
+    "doctor_name": "Dr. Zahir Uddin",
+    "department_ids": [
+      18
+    ],
+    "specializations": [
+      "Medical Oncology",
+      "Cancer Care"
+    ],
+    "available_schedule": [
+      {
+        "day": "Saturday",
+        "consultation_hours": {
+          "Morning": {
+            "start_time": "09:00 AM",
+            "end_time": "12:00 PM"
+          }
+        }
+      },
+      {
+        "day": "Tuesday",
+        "consultation_hours": {
+          "Evening": {
+            "start_time": "05:00 PM",
+            "end_time": "08:00 PM"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "doctor_id": 120,
+    "doctor_name": "Dr. Sharmeen Haque",
+    "department_ids": [
+      19
+    ],
+    "specializations": [
+      "Rheumatology",
+      "Autoimmune Diseases"
+    ],
+    "available_schedule": [
+      {
+        "day": "Sunday",
+        "consultation_hours": {
+          "Morning": {
+            "start_time": "09:00 AM",
+            "end_time": "12:00 PM"
+          }
+        }
+      },
+      {
+        "day": "Wednesday",
+        "consultation_hours": {
+          "Evening": {
+            "start_time": "05:00 PM",
+            "end_time": "08:00 PM"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "doctor_id": 121,
+    "doctor_name": "Dr. Faisal Mahmud",
+    "department_ids": [
+      20
+    ],
+    "specializations": [
+      "Emergency Medicine",
+      "Trauma Care"
+    ],
+    "available_schedule": [
+      {
+        "day": "Saturday",
+        "consultation_hours": {
+          "Morning": {
+            "start_time": "08:00 AM",
+            "end_time": "02:00 PM"
+          }
+        }
+      },
+      {
+        "day": "Monday",
+        "consultation_hours": {
+          "Evening": {
+            "start_time": "04:00 PM",
+            "end_time": "10:00 PM"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "doctor_id": 122,
+    "doctor_name": "Dr. Nabila Sultana",
+    "department_ids": [
+      1
+    ],
+    "specializations": [
+      "Clinical Cardiology",
+      "Echocardiography"
+    ],
+    "available_schedule": [
+      {
+        "day": "Sunday",
+        "consultation_hours": {
+          "Morning": {
+            "start_time": "09:00 AM",
+            "end_time": "01:00 PM"
+          }
+        }
+      },
+      {
+        "day": "Thursday",
+        "consultation_hours": {
+          "Evening": {
+            "start_time": "05:00 PM",
+            "end_time": "08:00 PM"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "doctor_id": 123,
+    "doctor_name": "Dr. Rashedul Kabir",
+    "department_ids": [
+      2
+    ],
+    "specializations": [
+      "General Medicine",
+      "Primary Care"
+    ],
+    "available_schedule": [
+      {
+        "day": "Saturday",
+        "consultation_hours": {
+          "Morning": {
+            "start_time": "09:00 AM",
+            "end_time": "12:00 PM"
+          }
+        }
+      },
+      {
+        "day": "Tuesday",
+        "consultation_hours": {
+          "Evening": {
+            "start_time": "05:00 PM",
+            "end_time": "08:00 PM"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "doctor_id": 124,
+    "doctor_name": "Dr. Tania Rahman",
+    "department_ids": [
+      3
+    ],
+    "specializations": [
+      "Neurology",
+      "Neurophysiology"
+    ],
+    "available_schedule": [
+      {
+        "day": "Sunday",
+        "consultation_hours": {
+          "Morning": {
+            "start_time": "10:00 AM",
+            "end_time": "01:00 PM"
+          }
+        }
+      },
+      {
+        "day": "Monday",
+        "consultation_hours": {
+          "Evening": {
+            "start_time": "04:00 PM",
+            "end_time": "07:00 PM"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "doctor_id": 125,
+    "doctor_name": "Dr. Mizanur Rahman",
+    "department_ids": [
+      4
+    ],
+    "specializations": [
+      "Orthopedics",
+      "Spine Surgery"
+    ],
+    "available_schedule": [
+      {
+        "day": "Saturday",
+        "consultation_hours": {
+          "Morning": {
+            "start_time": "09:00 AM",
+            "end_time": "01:00 PM"
+          }
+        }
+      },
+      {
+        "day": "Wednesday",
+        "consultation_hours": {
+          "Evening": {
+            "start_time": "05:00 PM",
+            "end_time": "08:00 PM"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "doctor_id": 126,
+    "doctor_name": "Dr. Sadia Islam",
+    "department_ids": [
+      5
+    ],
+    "specializations": [
+      "Dermatology",
+      "Clinical Dermatology"
+    ],
+    "available_schedule": [
+      {
+        "day": "Sunday",
+        "consultation_hours": {
+          "Morning": {
+            "start_time": "09:00 AM",
+            "end_time": "12:00 PM"
+          }
+        }
+      },
+      {
+        "day": "Tuesday",
+        "consultation_hours": {
+          "Evening": {
+            "start_time": "05:00 PM",
+            "end_time": "08:00 PM"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "doctor_id": 127,
+    "doctor_name": "Dr. Anisur Rahman",
+    "department_ids": [
+      6
+    ],
+    "specializations": [
+      "Gastroenterology",
+      "Digestive Diseases"
+    ],
+    "available_schedule": [
+      {
+        "day": "Saturday",
+        "consultation_hours": {
+          "Morning": {
+            "start_time": "10:00 AM",
+            "end_time": "01:00 PM"
+          }
+        }
+      },
+      {
+        "day": "Thursday",
+        "consultation_hours": {
+          "Evening": {
+            "start_time": "05:00 PM",
+            "end_time": "08:00 PM"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "doctor_id": 128,
+    "doctor_name": "Dr. Nusrat Chowdhury",
+    "department_ids": [
+      7
+    ],
+    "specializations": [
+      "Pulmonology",
+      "Critical Care"
+    ],
+    "available_schedule": [
+      {
+        "day": "Sunday",
+        "consultation_hours": {
+          "Morning": {
+            "start_time": "09:00 AM",
+            "end_time": "12:00 PM"
+          }
+        }
+      },
+      {
+        "day": "Wednesday",
+        "consultation_hours": {
+          "Evening": {
+            "start_time": "04:00 PM",
+            "end_time": "07:00 PM"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "doctor_id": 129,
+    "doctor_name": "Dr. Saima Akter",
+    "department_ids": [
+      8
+    ],
+    "specializations": [
+      "Ophthalmology",
+      "Glaucoma"
+    ],
+    "available_schedule": [
+      {
+        "day": "Saturday",
+        "consultation_hours": {
+          "Morning": {
+            "start_time": "09:00 AM",
+            "end_time": "01:00 PM"
+          }
+        }
+      },
+      {
+        "day": "Monday",
+        "consultation_hours": {
+          "Evening": {
+            "start_time": "05:00 PM",
+            "end_time": "08:00 PM"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "doctor_id": 130,
+    "doctor_name": "Dr. Mahbub Alam",
+    "department_ids": [
+      9
+    ],
+    "specializations": [
+      "ENT",
+      "Otology"
+    ],
+    "available_schedule": [
+      {
+        "day": "Sunday",
+        "consultation_hours": {
+          "Morning": {
+            "start_time": "10:00 AM",
+            "end_time": "01:00 PM"
+          }
+        }
+      },
+      {
+        "day": "Thursday",
+        "consultation_hours": {
+          "Evening": {
+            "start_time": "05:00 PM",
+            "end_time": "09:00 PM"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "doctor_id": 131,
+    "doctor_name": "Dr. Rakib Hasan",
+    "department_ids": [
+      10
+    ],
+    "specializations": [
+      "Urology",
+      "Andrology"
+    ],
+    "available_schedule": [
+      {
+        "day": "Saturday",
+        "consultation_hours": {
+          "Morning": {
+            "start_time": "09:00 AM",
+            "end_time": "12:00 PM"
+          }
+        }
+      },
+      {
+        "day": "Tuesday",
+        "consultation_hours": {
+          "Evening": {
+            "start_time": "04:00 PM",
+            "end_time": "08:00 PM"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "doctor_id": 132,
+    "doctor_name": "Dr. Shahana Parvin",
+    "department_ids": [
+      11
+    ],
+    "specializations": [
+      "Nephrology",
+      "Dialysis"
+    ],
+    "available_schedule": [
+      {
+        "day": "Sunday",
+        "consultation_hours": {
+          "Morning": {
+            "start_time": "09:00 AM",
+            "end_time": "01:00 PM"
+          }
+        }
+      },
+      {
+        "day": "Wednesday",
+        "consultation_hours": {
+          "Evening": {
+            "start_time": "05:00 PM",
+            "end_time": "08:00 PM"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "doctor_id": 133,
+    "doctor_name": "Dr. Aminul Islam",
+    "department_ids": [
+      12
+    ],
+    "specializations": [
+      "Endocrinology",
+      "Thyroid Disorders"
+    ],
+    "available_schedule": [
+      {
+        "day": "Saturday",
+        "consultation_hours": {
+          "Morning": {
+            "start_time": "10:00 AM",
+            "end_time": "01:00 PM"
+          }
+        }
+      },
+      {
+        "day": "Monday",
+        "consultation_hours": {
+          "Evening": {
+            "start_time": "05:00 PM",
+            "end_time": "08:00 PM"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "doctor_id": 134,
+    "doctor_name": "Dr. Lamia Haque",
+    "department_ids": [
+      13
+    ],
+    "specializations": [
+      "Psychiatry",
+      "Mental Health"
+    ],
+    "available_schedule": [
+      {
+        "day": "Sunday",
+        "consultation_hours": {
+          "Morning": {
+            "start_time": "09:00 AM",
+            "end_time": "12:00 PM"
+          }
+        }
+      },
+      {
+        "day": "Thursday",
+        "consultation_hours": {
+          "Evening": {
+            "start_time": "04:00 PM",
+            "end_time": "07:00 PM"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "doctor_id": 135,
+    "doctor_name": "Dr. Mahfuza Rahman",
+    "department_ids": [
+      14
+    ],
+    "specializations": [
+      "Gynecology",
+      "Reproductive Health"
+    ],
+    "available_schedule": [
+      {
+        "day": "Saturday",
+        "consultation_hours": {
+          "Morning": {
+            "start_time": "09:00 AM",
+            "end_time": "01:00 PM"
+          }
+        }
+      },
+      {
+        "day": "Tuesday",
+        "consultation_hours": {
+          "Evening": {
+            "start_time": "05:00 PM",
+            "end_time": "08:00 PM"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "doctor_id": 136,
+    "doctor_name": "Dr. Sultana Jahan",
+    "department_ids": [
+      15
+    ],
+    "specializations": [
+      "Obstetrics",
+      "High-Risk Pregnancy"
+    ],
+    "available_schedule": [
+      {
+        "day": "Sunday",
+        "consultation_hours": {
+          "Morning": {
+            "start_time": "10:00 AM",
+            "end_time": "01:00 PM"
+          }
+        }
+      },
+      {
+        "day": "Wednesday",
+        "consultation_hours": {
+          "Evening": {
+            "start_time": "04:00 PM",
+            "end_time": "07:00 PM"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "doctor_id": 137,
+    "doctor_name": "Dr. Hasan Mahmud",
+    "department_ids": [
+      16
+    ],
+    "specializations": [
+      "Pediatrics",
+      "Neonatology"
+    ],
+    "available_schedule": [
+      {
+        "day": "Saturday",
+        "consultation_hours": {
+          "Morning": {
+            "start_time": "09:00 AM",
+            "end_time": "12:00 PM"
+          }
+        }
+      },
+      {
+        "day": "Monday",
+        "consultation_hours": {
+          "Evening": {
+            "start_time": "05:00 PM",
+            "end_time": "08:00 PM"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "doctor_id": 138,
+    "doctor_name": "Dr. Sharmin Akter",
+    "department_ids": [
+      17
+    ],
+    "specializations": [
+      "Dentistry",
+      "Orthodontics"
+    ],
+    "available_schedule": [
+      {
+        "day": "Sunday",
+        "consultation_hours": {
+          "Morning": {
+            "start_time": "09:00 AM",
+            "end_time": "01:00 PM"
+          }
+        }
+      },
+      {
+        "day": "Tuesday",
+        "consultation_hours": {
+          "Evening": {
+            "start_time": "05:00 PM",
+            "end_time": "08:00 PM"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "doctor_id": 139,
+    "doctor_name": "Dr. Tariqul Islam",
+    "department_ids": [
+      18
+    ],
+    "specializations": [
+      "Oncology",
+      "Radiation Oncology"
+    ],
+    "available_schedule": [
+      {
+        "day": "Saturday",
+        "consultation_hours": {
+          "Morning": {
+            "start_time": "10:00 AM",
+            "end_time": "01:00 PM"
+          }
+        }
+      },
+      {
+        "day": "Thursday",
+        "consultation_hours": {
+          "Evening": {
+            "start_time": "05:00 PM",
+            "end_time": "08:00 PM"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "doctor_id": 140,
+    "doctor_name": "Dr. Farzana Ahmed",
+    "department_ids": [
+      19
+    ],
+    "specializations": [
+      "Rheumatology",
+      "Clinical Immunology"
+    ],
+    "available_schedule": [
+      {
+        "day": "Sunday",
+        "consultation_hours": {
+          "Morning": {
+            "start_time": "09:00 AM",
+            "end_time": "12:00 PM"
+          }
+        }
+      },
+      {
+        "day": "Wednesday",
+        "consultation_hours": {
+          "Evening": {
+            "start_time": "05:00 PM",
+            "end_time": "08:00 PM"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "doctor_id": 141,
+    "doctor_name": "Dr. Saad Hossain",
+    "department_ids": [
+      20
+    ],
+    "specializations": [
+      "Emergency Medicine",
+      "Trauma Care"
+    ],
+    "available_schedule": [
+      {
+        "day": "Saturday",
+        "consultation_hours": {
+          "Morning": {
+            "start_time": "08:00 AM",
+            "end_time": "02:00 PM"
+          }
+        }
+      },
+      {
+        "day": "Monday",
+        "consultation_hours": {
+          "Evening": {
+            "start_time": "04:00 PM",
+            "end_time": "10:00 PM"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "doctor_id": 142,
+    "doctor_name": "Dr. Morshed Alam",
+    "department_ids": [
+      1,
+      12
+    ],
+    "specializations": [
+      "Cardiology",
+      "Cardiac Endocrinology"
+    ],
+    "available_schedule": [
+      {
+        "day": "Sunday",
+        "consultation_hours": {
+          "Morning": {
+            "start_time": "09:00 AM",
+            "end_time": "12:00 PM"
+          }
+        }
+      },
+      {
+        "day": "Tuesday",
+        "consultation_hours": {
+          "Evening": {
+            "start_time": "05:00 PM",
+            "end_time": "08:00 PM"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "doctor_id": 143,
+    "doctor_name": "Dr. Javed Iqbal",
+    "department_ids": [
+      2,
+      6
+    ],
+    "specializations": [
+      "Internal Medicine",
+      "Gastroenterology"
+    ],
+    "available_schedule": [
+      {
+        "day": "Saturday",
+        "consultation_hours": {
+          "Morning": {
+            "start_time": "10:00 AM",
+            "end_time": "01:00 PM"
+          }
+        }
+      },
+      {
+        "day": "Thursday",
+        "consultation_hours": {
+          "Evening": {
+            "start_time": "05:00 PM",
+            "end_time": "08:00 PM"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "doctor_id": 144,
+    "doctor_name": "Dr. Ruma Akter",
+    "department_ids": [
+      3,
+      13
+    ],
+    "specializations": [
+      "Neurology",
+      "Neuropsychiatry"
+    ],
+    "available_schedule": [
+      {
+        "day": "Sunday",
+        "consultation_hours": {
+          "Morning": {
+            "start_time": "09:00 AM",
+            "end_time": "01:00 PM"
+          }
+        }
+      },
+      {
+        "day": "Wednesday",
+        "consultation_hours": {
+          "Evening": {
+            "start_time": "04:00 PM",
+            "end_time": "07:00 PM"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "doctor_id": 145,
+    "doctor_name": "Dr. Nayeem Hasan",
+    "department_ids": [
+      4,
+      19
+    ],
+    "specializations": [
+      "Orthopedics",
+      "Rheumatology"
+    ],
+    "available_schedule": [
+      {
+        "day": "Saturday",
+        "consultation_hours": {
+          "Morning": {
+            "start_time": "09:00 AM",
+            "end_time": "12:00 PM"
+          }
+        }
+      },
+      {
+        "day": "Monday",
+        "consultation_hours": {
+          "Evening": {
+            "start_time": "05:00 PM",
+            "end_time": "08:00 PM"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "doctor_id": 146,
+    "doctor_name": "Dr. Sabrina Islam",
+    "department_ids": [
+      5,
+      12
+    ],
+    "specializations": [
+      "Dermatology",
+      "Endocrine Skin Disorders"
+    ],
+    "available_schedule": [
+      {
+        "day": "Sunday",
+        "consultation_hours": {
+          "Morning": {
+            "start_time": "10:00 AM",
+            "end_time": "01:00 PM"
+          }
+        }
+      },
+      {
+        "day": "Thursday",
+        "consultation_hours": {
+          "Evening": {
+            "start_time": "05:00 PM",
+            "end_time": "08:00 PM"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "doctor_id": 147,
+    "doctor_name": "Dr. Ehsan Karim",
+    "department_ids": [
+      7,
+      9
+    ],
+    "specializations": [
+      "Pulmonology",
+      "Sleep Medicine"
+    ],
+    "available_schedule": [
+      {
+        "day": "Saturday",
+        "consultation_hours": {
+          "Morning": {
+            "start_time": "09:00 AM",
+            "end_time": "12:00 PM"
+          }
+        }
+      },
+      {
+        "day": "Tuesday",
+        "consultation_hours": {
+          "Evening": {
+            "start_time": "04:00 PM",
+            "end_time": "07:00 PM"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "doctor_id": 148,
+    "doctor_name": "Dr. Lubna Yasmin",
+    "department_ids": [
+      8,
+      9
+    ],
+    "specializations": [
+      "Ophthalmology",
+      "Neuro-Ophthalmology"
+    ],
+    "available_schedule": [
+      {
+        "day": "Sunday",
+        "consultation_hours": {
+          "Morning": {
+            "start_time": "09:00 AM",
+            "end_time": "12:00 PM"
+          }
+        }
+      },
+      {
+        "day": "Wednesday",
+        "consultation_hours": {
+          "Evening": {
+            "start_time": "05:00 PM",
+            "end_time": "08:00 PM"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "doctor_id": 149,
+    "doctor_name": "Dr. Ashraf Uddin",
+    "department_ids": [
+      10,
+      11
+    ],
+    "specializations": [
+      "Urology",
+      "Nephrology"
+    ],
+    "available_schedule": [
+      {
+        "day": "Saturday",
+        "consultation_hours": {
+          "Morning": {
+            "start_time": "10:00 AM",
+            "end_time": "01:00 PM"
+          }
+        }
+      },
+      {
+        "day": "Monday",
+        "consultation_hours": {
+          "Evening": {
+            "start_time": "05:00 PM",
+            "end_time": "08:00 PM"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "doctor_id": 150,
+    "doctor_name": "Dr. Faria Sultana",
+    "department_ids": [
+      14,
+      15,
+      16
+    ],
+    "specializations": [
+      "Gynecology",
+      "Obstetrics",
+      "Pediatrics"
+    ],
+    "available_schedule": [
+      {
+        "day": "Sunday",
+        "consultation_hours": {
+          "Morning": {
+            "start_time": "09:00 AM",
+            "end_time": "01:00 PM"
+          }
+        }
+      },
+      {
+        "day": "Thursday",
+        "consultation_hours": {
+          "Evening": {
+            "start_time": "04:00 PM",
+            "end_time": "08:00 PM"
+          }
+        }
+      }
+    ]
+  }
+]

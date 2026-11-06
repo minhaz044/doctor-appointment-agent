@@ -1,0 +1,206 @@
+[
+  {
+    "department_id": 1,
+    "department_name": "Cardiology",
+    "symptoms": [
+      "Chest pain",
+      "Shortness of breath",
+      "Heart palpitations",
+      "Irregular heartbeat"
+    ]
+  },
+  {
+    "department_id": 2,
+    "department_name": "General Medicine",
+    "symptoms": [
+      "Fever",
+      "Headache",
+      "Body pain",
+      "Fatigue",
+      "Weakness"
+    ]
+  },
+  {
+    "department_id": 3,
+    "department_name": "Neurology",
+    "symptoms": [
+      "Frequent headaches",
+      "Migraine",
+      "Dizziness",
+      "Numbness",
+      "Seizures"
+    ]
+  },
+  {
+    "department_id": 4,
+    "department_name": "Orthopedics",
+    "symptoms": [
+      "Joint pain",
+      "Back pain",
+      "Bone fracture",
+      "Knee pain",
+      "Neck pain"
+    ]
+  },
+  {
+    "department_id": 5,
+    "department_name": "Dermatology",
+    "symptoms": [
+      "Skin rash",
+      "Acne",
+      "Itching",
+      "Eczema",
+      "Hair loss"
+    ]
+  },
+  {
+    "department_id": 6,
+    "department_name": "Gastroenterology",
+    "symptoms": [
+      "Stomach pain",
+      "Acidity",
+      "Heartburn",
+      "Diarrhea",
+      "Constipation"
+    ]
+  },
+  {
+    "department_id": 7,
+    "department_name": "Pulmonology",
+    "symptoms": [
+      "Persistent cough",
+      "Wheezing",
+      "Breathing difficulty",
+      "Asthma symptoms"
+    ]
+  },
+  {
+    "department_id": 8,
+    "department_name": "Ophthalmology",
+    "symptoms": [
+      "Blurred vision",
+      "Eye pain",
+      "Red eyes",
+      "Eye irritation"
+    ]
+  },
+  {
+    "department_id": 9,
+    "department_name": "ENT",
+    "symptoms": [
+      "Ear pain",
+      "Hearing loss",
+      "Sore throat",
+      "Sinus congestion",
+      "Nasal blockage"
+    ]
+  },
+  {
+    "department_id": 10,
+    "department_name": "Urology",
+    "symptoms": [
+      "Painful urination",
+      "Frequent urination",
+      "Kidney stones",
+      "Blood in urine"
+    ]
+  },
+  {
+    "department_id": 11,
+    "department_name": "Nephrology",
+    "symptoms": [
+      "Kidney problems",
+      "Swollen feet",
+      "Reduced urine output",
+      "Abnormal kidney function"
+    ]
+  },
+  {
+    "department_id": 12,
+    "department_name": "Endocrinology",
+    "symptoms": [
+      "Thyroid problems",
+      "Hormonal imbalance",
+      "Unexplained weight changes",
+      "Excessive thirst"
+    ]
+  },
+  {
+    "department_id": 13,
+    "department_name": "Psychiatry",
+    "symptoms": [
+      "Anxiety",
+      "Depression",
+      "Panic attacks",
+      "Sleep disturbances"
+    ]
+  },
+  {
+    "department_id": 14,
+    "department_name": "Gynecology",
+    "symptoms": [
+      "Menstrual irregularities",
+      "Pelvic pain",
+      "Abnormal vaginal bleeding",
+      "Menopause symptoms"
+    ]
+  },
+  {
+    "department_id": 15,
+    "department_name": "Obstetrics",
+    "symptoms": [
+      "Pregnancy care",
+      "Prenatal consultation",
+      "Pregnancy-related complications"
+    ]
+  },
+  {
+    "department_id": 16,
+    "department_name": "Pediatrics",
+    "symptoms": [
+      "Childhood fever",
+      "Childhood cough",
+      "Child nutrition problems",
+      "Child development concerns"
+    ]
+  },
+  {
+    "department_id": 17,
+    "department_name": "Dentistry",
+    "symptoms": [
+      "Toothache",
+      "Gum bleeding",
+      "Tooth sensitivity",
+      "Dental cavities"
+    ]
+  },
+  {
+    "department_id": 18,
+    "department_name": "Oncology",
+    "symptoms": [
+      "Cancer consultation",
+      "Unexplained lumps",
+      "Cancer treatment follow-up"
+    ]
+  },
+  {
+    "department_id": 19,
+    "department_name": "Rheumatology",
+    "symptoms": [
+      "Joint stiffness",
+      "Joint swelling",
+      "Chronic joint pain",
+      "Muscle inflammation"
+    ]
+  },
+  {
+    "department_id": 20,
+    "department_name": "Emergency Medicine",
+    "symptoms": [
+      "Severe injury",
+      "Severe bleeding",
+      "Sudden severe pain",
+      "Medical emergencies"
+    ]
+  }
+]
