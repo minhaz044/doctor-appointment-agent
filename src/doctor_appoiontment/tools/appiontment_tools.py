@@ -11,4 +11,4 @@ def create_an_appointment(doctor_id: int, date: str, time: str):
         time -  what time patient will take the consultation of the doctor
     Return a Successfully appointment taken or Rejected due to allocation filled for today
     """
-    return "A appointment taken successfully Time 8.30 serial : 10"
+    return f"Confirmation: Your appointment is successfully scheduled on {date} at {time}. Please note, your serial number is 10."
