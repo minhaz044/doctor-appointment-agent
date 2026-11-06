@@ -29,24 +29,19 @@ class DoctorInfoService:
 
         return self._doctors
 
-    def get_department_tagged_by_symptom(self, symptom: str):
-        """ Find relevant medical departments based on the patient's symptoms.        """
-        symptom = symptom.strip().lower()
+    def get_department_by_symptom(self, symptoms: list[str]):
         departments = self.get_all_departments()
-
         matched_departments = []
 
         for department in departments:
             for department_symptom in department["symptoms"]:
-                department_symptom = department_symptom.lower()
-
-                if symptom in department_symptom or department_symptom in symptom:
+                if department_symptom in symptoms:
                     matched_departments.append(department)
                     break
 
         return matched_departments
 
-    def get_doctors_list(self, department_id: int = 0):
+    def get_doctors_by_department(self, department_id: int = 0):
         """    Retrieve doctors belonging to a specific department.        """
 
         doctors = self.get_all_doctors()
@@ -59,7 +54,7 @@ class DoctorInfoService:
             if department_id in doctor["department_ids"]
         ]
 
-    def get_doctor_details_and_schedule_info(self, doctor_id: int):
+    def get_doctor_details(self, doctor_id: int):
         """   Retrieve a doctor's profile and available consultation schedule       """
         doctors = self.get_all_doctors()
 
