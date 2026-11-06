@@ -9,4 +9,9 @@ dependencies = [
     "numpy",
     "dotenv",
     "soundfile",
+    "langchain",
+    "langgraph",
+    "langchain_google_genai",
+    "langchain_openai",
+    "requests>=2.34.2",
 ]
