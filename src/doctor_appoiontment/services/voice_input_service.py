@@ -9,13 +9,13 @@ class VoiceInputService:
         self._audio_chunks = []
 
     def _callback(self, indata, frames, time, status):
-        print("Callback triggered........")
+        print(".")
         self._audio_chunks.append(indata.copy())
 
     def take_voice_input(self):
         input("Press any key to start")
 
-        print("start recording..........")
+        print("start recording..........",end=" ")
         self._audio_chunks = []
         stream = sd.InputStream(
             samplerate=self._sample_rate,

@@ -32,22 +32,33 @@ appointment_agent = create_agent(
 )
 
 vs = VoiceInputService()
-audio = vs.take_voice_input()
-vs.play_audio(audio)
-
 audio2text = SpeechToTextService()
-converted_text = audio2text.convert_to_text(audio)
 
-print(converted_text)
 
-config = {"configurable": {"thread_id": str(uuid4())}}
+def run_conversation():
+    config = {"configurable": {"thread_id": str(uuid4())}}
 
-question = HumanMessage(content=converted_text)
-conversation = True
+    audio = vs.take_voice_input()
+    vs.play_audio(audio)
+    converted_text = audio2text.convert_to_text(audio)
+    print(converted_text)
 
-response = appointment_agent.invoke({"messages": question}, config=config)
-structured_response = response["structured_response"]
-print(response)
-print(structured_response)
+    conversation = True
+
+    while conversation:
+        question = HumanMessage(content=converted_text)
+        response = appointment_agent.invoke({"messages": question}, config=config)
+        structured_response = response["structured_response"]
+        print(f"Ai Response : {structured_response.answer}")
+
+        conversation = structured_response.conversation
+
+        if conversation:
+            audio = vs.take_voice_input()
+            converted_text = audio2text.convert_to_text(audio)
+            print(converted_text)
+
+
+run_conversation()
 
 print("Application exiting............")
