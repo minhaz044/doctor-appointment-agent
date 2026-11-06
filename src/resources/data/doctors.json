@@ -16,7 +16,8 @@
         "consultation_hours": {
           "Morning": {
             "start_time": "09:00 AM",
-            "end_time": "01:00 PM"
+            "end_time": "01:00 PM",
+            "fees": 700
           }
         }
       },
@@ -25,7 +26,8 @@
         "consultation_hours": {
           "Evening": {
             "start_time": "05:00 PM",
-            "end_time": "08:00 PM"
+            "end_time": "08:00 PM",
+            "fees": 800
           }
         }
       }
@@ -46,7 +48,8 @@
         "consultation_hours": {
           "Morning": {
             "start_time": "10:00 AM",
-            "end_time": "01:00 PM"
+            "end_time": "01:00 PM",
+            "fees": 900
           }
         }
       },
@@ -55,7 +58,8 @@
         "consultation_hours": {
           "Evening": {
             "start_time": "04:00 PM",
-            "end_time": "07:00 PM"
+            "end_time": "07:00 PM",
+            "fees": 1000
           }
         }
       }
@@ -78,7 +82,8 @@
         "consultation_hours": {
           "Evening": {
             "start_time": "05:00 PM",
-            "end_time": "09:00 PM"
+            "end_time": "09:00 PM",
+            "fees": 1100
           }
         }
       },
@@ -87,7 +92,8 @@
         "consultation_hours": {
           "Morning": {
             "start_time": "09:00 AM",
-            "end_time": "12:00 PM"
+            "end_time": "12:00 PM",
+            "fees": 1200
           }
         }
       }
@@ -109,7 +115,8 @@
         "consultation_hours": {
           "Morning": {
             "start_time": "09:00 AM",
-            "end_time": "12:00 PM"
+            "end_time": "12:00 PM",
+            "fees": 1300
           }
         }
       },
@@ -118,7 +125,8 @@
         "consultation_hours": {
           "Evening": {
             "start_time": "05:00 PM",
-            "end_time": "08:00 PM"
+            "end_time": "08:00 PM",
+            "fees": 1500
           }
         }
       }
@@ -140,7 +148,8 @@
         "consultation_hours": {
           "Morning": {
             "start_time": "10:00 AM",
-            "end_time": "01:00 PM"
+            "end_time": "01:00 PM",
+            "fees": 1700
           }
         }
       },
@@ -149,7 +158,8 @@
         "consultation_hours": {
           "Evening": {
             "start_time": "06:00 PM",
-            "end_time": "09:00 PM"
+            "end_time": "09:00 PM",
+            "fees": 2000
           }
         }
       }
@@ -171,7 +181,8 @@
         "consultation_hours": {
           "Morning": {
             "start_time": "09:00 AM",
-            "end_time": "01:00 PM"
+            "end_time": "01:00 PM",
+            "fees": 700
           }
         }
       },
@@ -180,7 +191,8 @@
         "consultation_hours": {
           "Evening": {
             "start_time": "05:00 PM",
-            "end_time": "08:00 PM"
+            "end_time": "08:00 PM",
+            "fees": 800
           }
         }
       }
@@ -202,7 +214,8 @@
         "consultation_hours": {
           "Morning": {
             "start_time": "09:00 AM",
-            "end_time": "12:00 PM"
+            "end_time": "12:00 PM",
+            "fees": 900
           }
         }
       },
@@ -211,7 +224,8 @@
         "consultation_hours": {
           "Evening": {
             "start_time": "05:00 PM",
-            "end_time": "08:00 PM"
+            "end_time": "08:00 PM",
+            "fees": 1000
           }
         }
       }
@@ -233,7 +247,8 @@
         "consultation_hours": {
           "Morning": {
             "start_time": "10:00 AM",
-            "end_time": "01:00 PM"
+            "end_time": "01:00 PM",
+            "fees": 1100
           }
         }
       },
@@ -242,7 +257,8 @@
         "consultation_hours": {
           "Evening": {
             "start_time": "04:00 PM",
-            "end_time": "07:00 PM"
+            "end_time": "07:00 PM",
+            "fees": 1200
           }
         }
       }
@@ -264,7 +280,8 @@
         "consultation_hours": {
           "Morning": {
             "start_time": "09:00 AM",
-            "end_time": "01:00 PM"
+            "end_time": "01:00 PM",
+            "fees": 1300
           }
         }
       },
@@ -273,7 +290,8 @@
         "consultation_hours": {
           "Evening": {
             "start_time": "05:00 PM",
-            "end_time": "08:00 PM"
+            "end_time": "08:00 PM",
+            "fees": 1500
           }
         }
       }
@@ -295,7 +313,8 @@
         "consultation_hours": {
           "Morning": {
             "start_time": "09:00 AM",
-            "end_time": "12:00 PM"
+            "end_time": "12:00 PM",
+            "fees": 1700
           }
         }
       },
@@ -304,7 +323,8 @@
         "consultation_hours": {
           "Evening": {
             "start_time": "05:00 PM",
-            "end_time": "09:00 PM"
+            "end_time": "09:00 PM",
+            "fees": 2000
           }
         }
       }
@@ -326,7 +346,8 @@
         "consultation_hours": {
           "Morning": {
             "start_time": "10:00 AM",
-            "end_time": "01:00 PM"
+            "end_time": "01:00 PM",
+            "fees": 700
           }
         }
       },
@@ -335,7 +356,8 @@
         "consultation_hours": {
           "Evening": {
             "start_time": "05:00 PM",
-            "end_time": "08:00 PM"
+            "end_time": "08:00 PM",
+            "fees": 800
           }
         }
       }
@@ -357,7 +379,8 @@
         "consultation_hours": {
           "Morning": {
             "start_time": "09:00 AM",
-            "end_time": "12:00 PM"
+            "end_time": "12:00 PM",
+            "fees": 900
           }
         }
       },
@@ -366,7 +389,8 @@
         "consultation_hours": {
           "Evening": {
             "start_time": "04:00 PM",
-            "end_time": "07:00 PM"
+            "end_time": "07:00 PM",
+            "fees": 1000
           }
         }
       }
@@ -388,7 +412,8 @@
         "consultation_hours": {
           "Morning": {
             "start_time": "09:00 AM",
-            "end_time": "01:00 PM"
+            "end_time": "01:00 PM",
+            "fees": 1100
           }
         }
       },
@@ -397,7 +422,8 @@
         "consultation_hours": {
           "Evening": {
             "start_time": "05:00 PM",
-            "end_time": "08:00 PM"
+            "end_time": "08:00 PM",
+            "fees": 1200
           }
         }
       }
@@ -419,7 +445,8 @@
         "consultation_hours": {
           "Morning": {
             "start_time": "10:00 AM",
-            "end_time": "01:00 PM"
+            "end_time": "01:00 PM",
+            "fees": 1300
           }
         }
       },
@@ -428,7 +455,8 @@
         "consultation_hours": {
           "Evening": {
             "start_time": "05:00 PM",
-            "end_time": "08:00 PM"
+            "end_time": "08:00 PM",
+            "fees": 1500
           }
         }
       }
@@ -451,7 +479,8 @@
         "consultation_hours": {
           "Morning": {
             "start_time": "09:00 AM",
-            "end_time": "12:00 PM"
+            "end_time": "12:00 PM",
+            "fees": 1700
           }
         }
       },
@@ -460,7 +489,8 @@
         "consultation_hours": {
           "Evening": {
             "start_time": "05:00 PM",
-            "end_time": "08:00 PM"
+            "end_time": "08:00 PM",
+            "fees": 2000
           }
         }
       }
@@ -482,7 +512,8 @@
         "consultation_hours": {
           "Morning": {
             "start_time": "09:00 AM",
-            "end_time": "01:00 PM"
+            "end_time": "01:00 PM",
+            "fees": 700
           }
         }
       },
@@ -491,7 +522,8 @@
         "consultation_hours": {
           "Evening": {
             "start_time": "04:00 PM",
-            "end_time": "07:00 PM"
+            "end_time": "07:00 PM",
+            "fees": 800
           }
         }
       }
@@ -513,7 +545,8 @@
         "consultation_hours": {
           "Morning": {
             "start_time": "09:00 AM",
-            "end_time": "12:00 PM"
+            "end_time": "12:00 PM",
+            "fees": 900
           }
         }
       },
@@ -522,7 +555,8 @@
         "consultation_hours": {
           "Evening": {
             "start_time": "05:00 PM",
-            "end_time": "08:00 PM"
+            "end_time": "08:00 PM",
+            "fees": 1000
           }
         }
       }
@@ -544,7 +578,8 @@
         "consultation_hours": {
           "Morning": {
             "start_time": "10:00 AM",
-            "end_time": "01:00 PM"
+            "end_time": "01:00 PM",
+            "fees": 1100
           }
         }
       },
@@ -553,7 +588,8 @@
         "consultation_hours": {
           "Evening": {
             "start_time": "04:00 PM",
-            "end_time": "08:00 PM"
+            "end_time": "08:00 PM",
+            "fees": 1200
           }
         }
       }
@@ -575,7 +611,8 @@
         "consultation_hours": {
           "Morning": {
             "start_time": "09:00 AM",
-            "end_time": "12:00 PM"
+            "end_time": "12:00 PM",
+            "fees": 1300
           }
         }
       },
@@ -584,7 +621,8 @@
         "consultation_hours": {
           "Evening": {
             "start_time": "05:00 PM",
-            "end_time": "08:00 PM"
+            "end_time": "08:00 PM",
+            "fees": 1500
           }
         }
       }
@@ -606,7 +644,8 @@
         "consultation_hours": {
           "Morning": {
             "start_time": "09:00 AM",
-            "end_time": "12:00 PM"
+            "end_time": "12:00 PM",
+            "fees": 1700
           }
         }
       },
@@ -615,7 +654,8 @@
         "consultation_hours": {
           "Evening": {
             "start_time": "05:00 PM",
-            "end_time": "08:00 PM"
+            "end_time": "08:00 PM",
+            "fees": 2000
           }
         }
       }
@@ -637,7 +677,8 @@
         "consultation_hours": {
           "Morning": {
             "start_time": "08:00 AM",
-            "end_time": "02:00 PM"
+            "end_time": "02:00 PM",
+            "fees": 700
           }
         }
       },
@@ -646,7 +687,8 @@
         "consultation_hours": {
           "Evening": {
             "start_time": "04:00 PM",
-            "end_time": "10:00 PM"
+            "end_time": "10:00 PM",
+            "fees": 800
           }
         }
       }
@@ -668,7 +710,8 @@
         "consultation_hours": {
           "Morning": {
             "start_time": "09:00 AM",
-            "end_time": "01:00 PM"
+            "end_time": "01:00 PM",
+            "fees": 900
           }
         }
       },
@@ -677,7 +720,8 @@
         "consultation_hours": {
           "Evening": {
             "start_time": "05:00 PM",
-            "end_time": "08:00 PM"
+            "end_time": "08:00 PM",
+            "fees": 1000
           }
         }
       }
@@ -699,7 +743,8 @@
         "consultation_hours": {
           "Morning": {
             "start_time": "09:00 AM",
-            "end_time": "12:00 PM"
+            "end_time": "12:00 PM",
+            "fees": 1100
           }
         }
       },
@@ -708,7 +753,8 @@
         "consultation_hours": {
           "Evening": {
             "start_time": "05:00 PM",
-            "end_time": "08:00 PM"
+            "end_time": "08:00 PM",
+            "fees": 1200
           }
         }
       }
@@ -730,7 +776,8 @@
         "consultation_hours": {
           "Morning": {
             "start_time": "10:00 AM",
-            "end_time": "01:00 PM"
+            "end_time": "01:00 PM",
+            "fees": 1300
           }
         }
       },
@@ -739,7 +786,8 @@
         "consultation_hours": {
           "Evening": {
             "start_time": "04:00 PM",
-            "end_time": "07:00 PM"
+            "end_time": "07:00 PM",
+            "fees": 1500
           }
         }
       }
@@ -761,7 +809,8 @@
         "consultation_hours": {
           "Morning": {
             "start_time": "09:00 AM",
-            "end_time": "01:00 PM"
+            "end_time": "01:00 PM",
+            "fees": 1700
           }
         }
       },
@@ -770,7 +819,8 @@
         "consultation_hours": {
           "Evening": {
             "start_time": "05:00 PM",
-            "end_time": "08:00 PM"
+            "end_time": "08:00 PM",
+            "fees": 2000
           }
         }
       }
@@ -792,7 +842,8 @@
         "consultation_hours": {
           "Morning": {
             "start_time": "09:00 AM",
-            "end_time": "12:00 PM"
+            "end_time": "12:00 PM",
+            "fees": 700
           }
         }
       },
@@ -801,7 +852,8 @@
         "consultation_hours": {
           "Evening": {
             "start_time": "05:00 PM",
-            "end_time": "08:00 PM"
+            "end_time": "08:00 PM",
+            "fees": 800
           }
         }
       }
@@ -823,7 +875,8 @@
         "consultation_hours": {
           "Morning": {
             "start_time": "10:00 AM",
-            "end_time": "01:00 PM"
+            "end_time": "01:00 PM",
+            "fees": 900
           }
         }
       },
@@ -832,7 +885,8 @@
         "consultation_hours": {
           "Evening": {
             "start_time": "05:00 PM",
-            "end_time": "08:00 PM"
+            "end_time": "08:00 PM",
+            "fees": 1000
           }
         }
       }
@@ -854,7 +908,8 @@
         "consultation_hours": {
           "Morning": {
             "start_time": "09:00 AM",
-            "end_time": "12:00 PM"
+            "end_time": "12:00 PM",
+            "fees": 1100
           }
         }
       },
@@ -863,7 +918,8 @@
         "consultation_hours": {
           "Evening": {
             "start_time": "04:00 PM",
-            "end_time": "07:00 PM"
+            "end_time": "07:00 PM",
+            "fees": 1200
           }
         }
       }
@@ -885,7 +941,8 @@
         "consultation_hours": {
           "Morning": {
             "start_time": "09:00 AM",
-            "end_time": "01:00 PM"
+            "end_time": "01:00 PM",
+            "fees": 1300
           }
         }
       },
@@ -894,7 +951,8 @@
         "consultation_hours": {
           "Evening": {
             "start_time": "05:00 PM",
-            "end_time": "08:00 PM"
+            "end_time": "08:00 PM",
+            "fees": 1500
           }
         }
       }
@@ -916,7 +974,8 @@
         "consultation_hours": {
           "Morning": {
             "start_time": "10:00 AM",
-            "end_time": "01:00 PM"
+            "end_time": "01:00 PM",
+            "fees": 1700
           }
         }
       },
@@ -925,7 +984,8 @@
         "consultation_hours": {
           "Evening": {
             "start_time": "05:00 PM",
-            "end_time": "09:00 PM"
+            "end_time": "09:00 PM",
+            "fees": 2000
           }
         }
       }
@@ -947,7 +1007,8 @@
         "consultation_hours": {
           "Morning": {
             "start_time": "09:00 AM",
-            "end_time": "12:00 PM"
+            "end_time": "12:00 PM",
+            "fees": 700
           }
         }
       },
@@ -956,7 +1017,8 @@
         "consultation_hours": {
           "Evening": {
             "start_time": "04:00 PM",
-            "end_time": "08:00 PM"
+            "end_time": "08:00 PM",
+            "fees": 800
           }
         }
       }
@@ -978,7 +1040,8 @@
         "consultation_hours": {
           "Morning": {
             "start_time": "09:00 AM",
-            "end_time": "01:00 PM"
+            "end_time": "01:00 PM",
+            "fees": 900
           }
         }
       },
@@ -987,7 +1050,8 @@
         "consultation_hours": {
           "Evening": {
             "start_time": "05:00 PM",
-            "end_time": "08:00 PM"
+            "end_time": "08:00 PM",
+            "fees": 1000
           }
         }
       }
@@ -1009,7 +1073,8 @@
         "consultation_hours": {
           "Morning": {
             "start_time": "10:00 AM",
-            "end_time": "01:00 PM"
+            "end_time": "01:00 PM",
+            "fees": 1100
           }
         }
       },
@@ -1018,7 +1083,8 @@
         "consultation_hours": {
           "Evening": {
             "start_time": "05:00 PM",
-            "end_time": "08:00 PM"
+            "end_time": "08:00 PM",
+            "fees": 1200
           }
         }
       }
@@ -1040,7 +1106,8 @@
         "consultation_hours": {
           "Morning": {
             "start_time": "09:00 AM",
-            "end_time": "12:00 PM"
+            "end_time": "12:00 PM",
+            "fees": 1300
           }
         }
       },
@@ -1049,7 +1116,8 @@
         "consultation_hours": {
           "Evening": {
             "start_time": "04:00 PM",
-            "end_time": "07:00 PM"
+            "end_time": "07:00 PM",
+            "fees": 1500
           }
         }
       }
@@ -1071,7 +1139,8 @@
         "consultation_hours": {
           "Morning": {
             "start_time": "09:00 AM",
-            "end_time": "01:00 PM"
+            "end_time": "01:00 PM",
+            "fees": 1700
           }
         }
       },
@@ -1080,7 +1149,8 @@
         "consultation_hours": {
           "Evening": {
             "start_time": "05:00 PM",
-            "end_time": "08:00 PM"
+            "end_time": "08:00 PM",
+            "fees": 2000
           }
         }
       }
@@ -1102,7 +1172,8 @@
         "consultation_hours": {
           "Morning": {
             "start_time": "10:00 AM",
-            "end_time": "01:00 PM"
+            "end_time": "01:00 PM",
+            "fees": 700
           }
         }
       },
@@ -1111,7 +1182,8 @@
         "consultation_hours": {
           "Evening": {
             "start_time": "04:00 PM",
-            "end_time": "07:00 PM"
+            "end_time": "07:00 PM",
+            "fees": 800
           }
         }
       }
@@ -1133,7 +1205,8 @@
         "consultation_hours": {
           "Morning": {
             "start_time": "09:00 AM",
-            "end_time": "12:00 PM"
+            "end_time": "12:00 PM",
+            "fees": 900
           }
         }
       },
@@ -1142,7 +1215,8 @@
         "consultation_hours": {
           "Evening": {
             "start_time": "05:00 PM",
-            "end_time": "08:00 PM"
+            "end_time": "08:00 PM",
+            "fees": 1000
           }
         }
       }
@@ -1164,7 +1238,8 @@
         "consultation_hours": {
           "Morning": {
             "start_time": "09:00 AM",
-            "end_time": "01:00 PM"
+            "end_time": "01:00 PM",
+            "fees": 1100
           }
         }
       },
@@ -1173,7 +1248,8 @@
         "consultation_hours": {
           "Evening": {
             "start_time": "05:00 PM",
-            "end_time": "08:00 PM"
+            "end_time": "08:00 PM",
+            "fees": 1200
           }
         }
       }
@@ -1195,7 +1271,8 @@
         "consultation_hours": {
           "Morning": {
             "start_time": "10:00 AM",
-            "end_time": "01:00 PM"
+            "end_time": "01:00 PM",
+            "fees": 1300
           }
         }
       },
@@ -1204,7 +1281,8 @@
         "consultation_hours": {
           "Evening": {
             "start_time": "05:00 PM",
-            "end_time": "08:00 PM"
+            "end_time": "08:00 PM",
+            "fees": 1500
           }
         }
       }
@@ -1226,7 +1304,8 @@
         "consultation_hours": {
           "Morning": {
             "start_time": "09:00 AM",
-            "end_time": "12:00 PM"
+            "end_time": "12:00 PM",
+            "fees": 1700
           }
         }
       },
@@ -1235,7 +1314,8 @@
         "consultation_hours": {
           "Evening": {
             "start_time": "05:00 PM",
-            "end_time": "08:00 PM"
+            "end_time": "08:00 PM",
+            "fees": 2000
           }
         }
       }
@@ -1257,7 +1337,8 @@
         "consultation_hours": {
           "Morning": {
             "start_time": "08:00 AM",
-            "end_time": "02:00 PM"
+            "end_time": "02:00 PM",
+            "fees": 700
           }
         }
       },
@@ -1266,7 +1347,8 @@
         "consultation_hours": {
           "Evening": {
             "start_time": "04:00 PM",
-            "end_time": "10:00 PM"
+            "end_time": "10:00 PM",
+            "fees": 800
           }
         }
       }
@@ -1289,7 +1371,8 @@
         "consultation_hours": {
           "Morning": {
             "start_time": "09:00 AM",
-            "end_time": "12:00 PM"
+            "end_time": "12:00 PM",
+            "fees": 900
           }
         }
       },
@@ -1298,7 +1381,8 @@
         "consultation_hours": {
           "Evening": {
             "start_time": "05:00 PM",
-            "end_time": "08:00 PM"
+            "end_time": "08:00 PM",
+            "fees": 1000
           }
         }
       }
@@ -1321,7 +1405,8 @@
         "consultation_hours": {
           "Morning": {
             "start_time": "10:00 AM",
-            "end_time": "01:00 PM"
+            "end_time": "01:00 PM",
+            "fees": 1100
           }
         }
       },
@@ -1330,7 +1415,8 @@
         "consultation_hours": {
           "Evening": {
             "start_time": "05:00 PM",
-            "end_time": "08:00 PM"
+            "end_time": "08:00 PM",
+            "fees": 1200
           }
         }
       }
@@ -1353,7 +1439,8 @@
         "consultation_hours": {
           "Morning": {
             "start_time": "09:00 AM",
-            "end_time": "01:00 PM"
+            "end_time": "01:00 PM",
+            "fees": 1300
           }
         }
       },
@@ -1362,7 +1449,8 @@
         "consultation_hours": {
           "Evening": {
             "start_time": "04:00 PM",
-            "end_time": "07:00 PM"
+            "end_time": "07:00 PM",
+            "fees": 1500
           }
         }
       }
@@ -1385,7 +1473,8 @@
         "consultation_hours": {
           "Morning": {
             "start_time": "09:00 AM",
-            "end_time": "12:00 PM"
+            "end_time": "12:00 PM",
+            "fees": 1700
           }
         }
       },
@@ -1394,7 +1483,8 @@
         "consultation_hours": {
           "Evening": {
             "start_time": "05:00 PM",
-            "end_time": "08:00 PM"
+            "end_time": "08:00 PM",
+            "fees": 2000
           }
         }
       }
@@ -1417,7 +1507,8 @@
         "consultation_hours": {
           "Morning": {
             "start_time": "10:00 AM",
-            "end_time": "01:00 PM"
+            "end_time": "01:00 PM",
+            "fees": 700
           }
         }
       },
@@ -1426,7 +1517,8 @@
         "consultation_hours": {
           "Evening": {
             "start_time": "05:00 PM",
-            "end_time": "08:00 PM"
+            "end_time": "08:00 PM",
+            "fees": 800
           }
         }
       }
@@ -1449,7 +1541,8 @@
         "consultation_hours": {
           "Morning": {
             "start_time": "09:00 AM",
-            "end_time": "12:00 PM"
+            "end_time": "12:00 PM",
+            "fees": 900
           }
         }
       },
@@ -1458,7 +1551,8 @@
         "consultation_hours": {
           "Evening": {
             "start_time": "04:00 PM",
-            "end_time": "07:00 PM"
+            "end_time": "07:00 PM",
+            "fees": 1000
           }
         }
       }
@@ -1481,7 +1575,8 @@
         "consultation_hours": {
           "Morning": {
             "start_time": "09:00 AM",
-            "end_time": "12:00 PM"
+            "end_time": "12:00 PM",
+            "fees": 1100
           }
         }
       },
@@ -1490,7 +1585,8 @@
         "consultation_hours": {
           "Evening": {
             "start_time": "05:00 PM",
-            "end_time": "08:00 PM"
+            "end_time": "08:00 PM",
+            "fees": 1200
           }
         }
       }
@@ -1513,7 +1609,8 @@
         "consultation_hours": {
           "Morning": {
             "start_time": "10:00 AM",
-            "end_time": "01:00 PM"
+            "end_time": "01:00 PM",
+            "fees": 1300
           }
         }
       },
@@ -1522,7 +1619,8 @@
         "consultation_hours": {
           "Evening": {
             "start_time": "05:00 PM",
-            "end_time": "08:00 PM"
+            "end_time": "08:00 PM",
+            "fees": 1500
           }
         }
       }
@@ -1547,7 +1645,8 @@
         "consultation_hours": {
           "Morning": {
             "start_time": "09:00 AM",
-            "end_time": "01:00 PM"
+            "end_time": "01:00 PM",
+            "fees": 1700
           }
         }
       },
@@ -1556,7 +1655,8 @@
         "consultation_hours": {
           "Evening": {
             "start_time": "04:00 PM",
-            "end_time": "08:00 PM"
+            "end_time": "08:00 PM",
+            "fees": 2000
           }
         }
       }
