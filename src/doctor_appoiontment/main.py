@@ -4,6 +4,7 @@ from langgraph.checkpoint.memory import InMemorySaver
 from domian.answer import Answer
 from services.voice_input_service import VoiceInputService
 from services.speech_to_text_service import SpeechToTextService
+from services.text_to_speech_service import TextToSpeechService
 from langchain.agents import create_agent
 from models.llm_models import llm
 from prompt.appiontment_system_prompt import APPOINTMENT_SYSTEM_PROMPT
@@ -35,6 +36,7 @@ appointment_agent = create_agent(
 
 vs = VoiceInputService()
 audio2text = SpeechToTextService()
+text2audio = TextToSpeechService()
 
 
 def run_conversation():
@@ -52,6 +54,9 @@ def run_conversation():
         response = appointment_agent.invoke({"messages": question}, config=config)
         structured_response = response["structured_response"]
         print(f"Ai Response : {structured_response.answer}")
+
+        response_aud = text2audio.convert_to_audio(structured_response.answer)
+        text2audio.play_audio(response_aud)
 
         conversation = structured_response.conversation
 
