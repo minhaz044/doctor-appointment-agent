@@ -43,7 +43,7 @@ def run_conversation():
     config = {"configurable": {"thread_id": str(uuid4())}}
 
     audio = vs.take_voice_input()
-    vs.play_audio(audio)
+    # vs.play_audio(audio)
     converted_text = audio2text.convert_to_text(audio)
     print(converted_text)
 
@@ -55,8 +55,7 @@ def run_conversation():
         structured_response = response["structured_response"]
         print(f"Ai Response : {structured_response.answer}")
 
-        response_aud = text2audio.convert_to_audio(structured_response.answer)
-        text2audio.play_audio(response_aud)
+        text2audio.convert_to_audio_play(structured_response.answer)
 
         conversation = structured_response.conversation
 

@@ -13,7 +13,7 @@ class TextToSpeechService:
     def __init__(self):
         self._client = OpenAI()
 
-    def convert_to_audio(self, text):
+    def _convert_to_audio(self, text):
         print("Converting text to audio........")
 
         response = self._client.audio.speech.create(
@@ -27,7 +27,7 @@ class TextToSpeechService:
 
         return audio_buffer
 
-    def play_audio(self, audio_data):
+    def _play_audio(self, audio_data):
         print("Playing audio...")
         audio_data.seek(0)
         data, sample_rate = sf.read(
@@ -36,3 +36,6 @@ class TextToSpeechService:
         )
         sd.play(data, samplerate=sample_rate)
         sd.wait()
+
+    def convert_to_audio_play(self, text):
+        self._play_audio(self._convert_to_audio(text))
